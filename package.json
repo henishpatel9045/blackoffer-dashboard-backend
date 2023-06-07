@@ -6,7 +6,8 @@
   "author": "Henish Patel",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
