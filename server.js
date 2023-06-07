@@ -6,7 +6,8 @@ const compression = require("compression");
 
 const dataRoutes = require("./routes/dataRoutes");
 
-const url = "mongodb://localhost:27017/blackoffer";
+// const url = "mongodb://localhost:27017/blackoffer";
+const url = "mongodb+srv://henish9045:henish%409045@cluster0.dqyvu6w.mongodb.net/backend"
 
 mongoose.Promise = global.Promise;
 mongoose.connect(url, {

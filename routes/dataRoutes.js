@@ -3,7 +3,7 @@ const router = express.Router();
 
 const dataController = require("../controllers/DataController");
 
-router.route("/all").get(dataController.getAllData);
+router.route("/dashboard").get(dataController.getAllData);
 router.route("/data").get(dataController.allSummary);
 router.route("/pie").get(dataController.pieChartData);
 router.route("/line").get(dataController.lineChartData);
